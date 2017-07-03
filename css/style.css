@@ -1,0 +1,54 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header h1 {
+	line-height: 4;
+	font-family: 'Zilla Slab', serif;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.container {
+	margin-top: 2em;
+	width:70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container img {
+	display:block;
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.date {
+	color: red;
+	font-size: 12px;
+	font-style: italic;
+}
+
+main {
+	background: grey;
+}
+
+.footer ul{
+	display:flex;
+	list-style: none;
+	justify-content: flex-end;
+}
+
+.footer ul li {
+	padding-right: 1em;
+}
+
+.red {
+	color:red;
+}
